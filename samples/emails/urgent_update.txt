@@ -1,0 +1,19 @@
+From: john.doe@abctech.com
+To: team@abctech.com
+Subject: Immediate Action Needed: Project Update
+Date: March 20, 2024
+
+Hi Team,
+
+This is urgent. Please address the following immediately:
+
+1. Update the project timeline
+2. Review the latest changes
+3. Schedule a team meeting
+
+The deadline is approaching fast, and we need everyone's input.
+
+Best regards,
+John Doe
+Senior Project Manager
+ABC Tech 

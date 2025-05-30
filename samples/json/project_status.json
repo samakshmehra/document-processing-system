@@ -1,0 +1,27 @@
+{
+    "project": "Website Redesign",
+    "status": "In Progress",
+    "team": [
+        "John",
+        "Alice",
+        "Bob"
+    ],
+    "deadline": "2024-04-01",
+    "milestones": [
+        {
+            "name": "Design Phase",
+            "status": "Completed",
+            "due_date": "2024-03-15"
+        },
+        {
+            "name": "Development Phase",
+            "status": "In Progress",
+            "due_date": "2024-03-30"
+        },
+        {
+            "name": "Testing Phase",
+            "status": "Not Started",
+            "due_date": "2024-04-01"
+        }
+    ]
+} 
