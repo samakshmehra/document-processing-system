@@ -10,15 +10,15 @@ os.environ["GEMINI_API_KEY"] = "AIzaSyC9Jj2cPonYRjVblF7ZuWO6FdIFaMU8h-4"
 
 class ClassifierAgent:
     def __init__(self, api_key: str = None):
-        """Initialize the ClassifierAgent with Gemini API configuration."""
+        """Initialize the classifier agent."""
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         if not self.api_key:
-            raise ValueError("GEMINI_API_KEY must be provided")
+            raise ValueError("GEMINI_API_KEY must be provided in environment variables")
         
         genai.configure(api_key=self.api_key)
         self.model = genai.GenerativeModel("gemini-1.5-flash")
         
-        # Initialize other agents
+        # Initialize sub-agents
         self.email_agent = SimpleEmailAgent(self.api_key)
         self.json_agent = JSONAgent(self.api_key)
 
